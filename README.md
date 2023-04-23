@@ -1,4 +1,7 @@
 # Contact_Management_System_REST_API_NODE_EXPRESS_MONGODB
-This is a REST API CRUD Based project Made using Express,Node,MongoDB. Which have the funcationality to register a user with the username,email,and password and details will be stores into mongoose schema and the bcrypt method uses it funcationallity to store the hashed password.Login is done by using email and password and a json web token is also required to make the actions of CRUD operations afterwords, this functionality helps the users to manage their contact safely without any other person interference without any access.
 
-Afetr login, a valid user can manage their contacts with the security of hashed password and only user access
+Tis is a secure and user-friendly REST API CRUD project, built using the popular technologies of Express, Node, and MongoDB. With our API, users can easily register an account with their unique username, email, and password, which is securely stored in our Mongoose schema. We use the latest bcrypt hashing methods to ensure that all user passwords are protected.
+
+Once a user is registered and logged in with their email and password, they will receive a JSON web token, which is required for all subsequent CRUD operations. This token adds an additional layer of security, ensuring that only authorized users can manage their contacts and personal information.
+
+This API allows users to easily manage their contacts without fear of unauthorized access. All information is securely stored and encrypted, and only the user has access to their personal information. Whether you need to add, update, or delete a contact, our API is designed to make it simple and secure.
